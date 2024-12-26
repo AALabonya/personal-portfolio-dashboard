@@ -40,7 +40,7 @@ const SignInForm = () => {
       
       dispatch(setUser({ user: user, token: res.token }));
      
-       navigate("/dashboard");
+       navigate("/");
     // Success toast notification
     toast.success("Login successful!");
   } catch (error: any) {
