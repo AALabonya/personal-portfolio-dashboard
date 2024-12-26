@@ -53,7 +53,7 @@ const SignInForm = () => {
     }
   };
     return (
-        <div className="p-8 rounded-2xl bg-white border">
+        <div className="p-8 rounded-2xl bg-white border mx-auto max-w-3xl mt-5">
             <h2 className="text-gray-800 text-center text-2xl font-bold">
                 Sign in
             </h2>
