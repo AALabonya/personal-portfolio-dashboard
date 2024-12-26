@@ -105,7 +105,7 @@ const SignInForm = () => {
                 <div className="flex flex-wrap items-center justify-between gap-4">
                 
                     <div className="text-sm">
-                        <Link to="/auth/forgot-password" className="text-primary hover:underline font-semibold">
+                        <Link to="/login" className="text-primary hover:underline font-semibold">
                             Forgot your password?
                         </Link>
                     </div>
@@ -120,7 +120,7 @@ const SignInForm = () => {
                 <p className="text-gray-800 text-sm !mt-8 text-center">
                     Don&apos;t have an account?{" "}
                     <Link
-                        to="/auth/signup"
+                        to="/signup"
                         className="text-primary hover:underline ml-1 whitespace-nowrap font-semibold"
                     >
                         Register here

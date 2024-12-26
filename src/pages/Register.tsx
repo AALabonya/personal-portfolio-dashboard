@@ -93,63 +93,7 @@ const Register = () => {
               </p>
             )}
           </div>
-          <div>
-            <label
-              htmlFor="phone"
-              className="block text-sm font-medium text-gray-700"
-            >
-              Phone
-            </label>
-            <input
-              type="text"
-              id="phone"
-              {...register("phone")}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary sm:text-sm"
-            />
-            {errors.phone && (
-              <p className="mt-2 text-sm text-red-600">
-                {errors.phone.message}
-              </p>
-            )}
-          </div>
-          <div>
-            <label
-              htmlFor="address"
-              className="block text-sm font-medium text-gray-700"
-            >
-              Address
-            </label>
-            <input
-              type="text"
-              id="address"
-              {...register("address")}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary sm:text-sm"
-            />
-            {errors.address && (
-              <p className="mt-2 text-sm text-red-600">
-                {errors.address.message}
-              </p>
-            )}
-          </div>
-          <div>
-            <label
-              htmlFor="role"
-              className="block text-sm font-medium text-gray-700"
-            >
-              Role
-            </label>
-            <select
-              id="role"
-              {...register("role")}
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary sm:text-sm"
-            >
-              <option value="customer">Customer</option>
-              <option value="vendor">Vendor</option>
-            </select>
-            {errors.role && (
-              <p className="mt-2 text-sm text-red-600">{errors.role.message}</p>
-            )}
-          </div>
+          
           <Button type="submit" className="w-full">
             Sign Up
           </Button>
